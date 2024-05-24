@@ -1,0 +1,57 @@
+html, body {
+    padding: 0;
+}
+
+.texto {
+    text-align: justify;
+  }
+
+  .padding_ssc {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .borde_ssc {
+    border: solid blue 5px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .borde_sii {
+    border: solid aquamarine 5px;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .debug {
+    border: red solid 2px;
+  }
+
+  @font-face {
+    font-family: 'ink-free';
+    src: url('/font/ink-free.ttf') format('truetype');
+    font-size: medium;
+
+    /* Ajusta la ruta según la ubicación real de tus fuentes */
+}
+
+@font-face {
+    font-family: 'nexa';
+    src: url('/font/Nexa-Heavy.ttf') format('truetype');
+    font-size: medium;
+}
+
+@font-face {
+    font-family: 'guidelines';
+    src: url('/font/r-c-guidelines-full.ttf') format('truetype');
+    font-size: medium;
+}
+
+.texto_explicativo {
+  border: blueviolet solid 2px;
+  width: 300px;
+  display: block;
+}
+
+
